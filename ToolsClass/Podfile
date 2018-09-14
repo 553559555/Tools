@@ -11,6 +11,7 @@ target 'ToolsClass' do
   pod 'RxSwift', '~>4.0'		 # Rxswift链式编程
   pod 'RxCocoa', '~>4.0'	  	 # RxCocoa链式编程
   pod 'BaiduMapKit'			 # 百度地图SDK
+  pod 'SwiftyJSON', '~> 4.0'             # JSON解析工具   
 
   target 'ToolsClassTests' do
     inherit! :search_paths
