@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ToolsClass' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ToolsClass
+  pod 'Alamofire'			 # swift网络请求	
+  pod 'SVProgressHUD'			 # 加载框，弹窗
+  pod 'RxSwift', '~>4.0'		 # Rxswift链式编程
+  pod 'RxCocoa', '~>4.0'	  	 # RxCocoa链式编程
+  pod 'BaiduMapKit'			 # 百度地图SDK
+
+  target 'ToolsClassTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ToolsClassUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
